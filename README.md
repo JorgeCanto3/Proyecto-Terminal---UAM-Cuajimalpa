@@ -2,8 +2,8 @@
 ## Proyecto-Terminal
 
 ## Integrantes
-### Jorge Luis Santiago Canto
-### Alan Torres Aguilar
+### - Jorge Luis Santiago Canto
+### - Alan Torres Aguilar
 
 ## Descripción
 
