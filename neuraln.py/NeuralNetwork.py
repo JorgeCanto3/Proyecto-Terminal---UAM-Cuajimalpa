@@ -61,18 +61,8 @@ def calcular_perdidas_pinn(batch_x, L, C, r, Vin, v_desired, modelo):
 
     return f_me_loss + f_eq_loss + f_lyap_loss + f_struct_loss
 
-def main():
-    dispositivo = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"\nIniciando entorno en: {dispositivo}")
-
-    modelo = HamiltonianNetwork().to(dispositivo)
-    optimizador = torch.optim.Adam(modelo.parameters(), lr=0.001)
 
     
-    L_val, C_val, r_val = 0.01, 0.001, 5.0
-    Vin_val, V_deseado_val = 24.0, 12.0
-    epocas = 100
-
 
 
 
